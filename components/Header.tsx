@@ -28,8 +28,8 @@ export default function Header() {
     <header className="w-full h-header flex justify-center items-center bg-white">
       <NavigationMenu>
         <NavigationMenuList>
-          {navigationLinks.map((link) => (
-            <NavigationMenuItem>
+          {navigationLinks.map((link, index) => (
+            <NavigationMenuItem key={index}>
               <Link href={link.url} legacyBehavior passHref>
                 <NavigationMenuLink
                   className={cn(navigationMenuTriggerStyle())}
