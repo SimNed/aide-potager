@@ -1,6 +1,5 @@
 import Section from "@/components/Section";
 import { Button } from "@/components/shadcn-ui/button";
-import helloWorld from "@/lib/db";
 
 export default async function HomePage() {
   return (
