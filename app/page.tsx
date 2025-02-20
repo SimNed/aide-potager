@@ -9,7 +9,7 @@ export default async function HomePage() {
       variant="lg"
       className="h-full flex flex-col justify-center items-center space-y-28 text-5xl font-bold"
     >
-      return <p>DBHELLO : {JSON.stringify(dbHello)}</p>;
+      <p>DBHELLO : {JSON.stringify(dbHello)}</p>;
       <h1 className="my-4">Aide potager</h1>
       <Button className="rounded-full">commencer</Button>
     </Section>
