@@ -18,4 +18,4 @@ export default async function HomePage() {
 }
 
 export const runtime = "edge";
-export const region = "fra1";
+export const preferedRegion = "fra1";
